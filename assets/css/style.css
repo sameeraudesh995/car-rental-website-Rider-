@@ -229,8 +229,12 @@ button, a { transition: var(--transition); }
 
 .w-100 { width: 100%; }
 
-
-
+section{
+  background-color: var(--columbia-blue);
+}
+.footer{
+ background: red;
+}
 
 
 /*-----------------------------------*\
@@ -240,7 +244,7 @@ button, a { transition: var(--transition); }
 .header-contact { display: none; }
 
 .header {
-  background: var(--alice-blue-1);
+  background: var(--alice-blue-2);
   position: fixed;
   top: 0;
   left: 0;
@@ -589,7 +593,7 @@ button, a { transition: var(--transition); }
 }
 
 .get-start-card .card-icon {
-  background: var(--icon-card-bg, var(--columnia-blue));
+  background: var(--icon-card-bg, var(--carolina-blue));
   color: var(--icon-card-color, var(--carolina-blue));
   height: 50px;
   width: 50px;
@@ -756,7 +760,7 @@ button, a { transition: var(--transition); }
 \*-----------------------------------*/
 
 .footer {
-  background: var(--alice-blue-4);
+  background: var(--alice-blue-2);
   color: var(--independence);
 }
 
